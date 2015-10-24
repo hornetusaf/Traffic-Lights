@@ -1,0 +1,31 @@
+Begin DDE Information.
+    Last DDE Source:	2
+Begin DDE Source Definition.
+    Source Name:		Galaxy
+    Application Name:		\\NA\NA
+    Topic Name:			NA
+    DDE Source ID:		1
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			3
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		PLC
+    Application Name:		MBENET
+    Topic Name:			PLC
+    DDE Source ID:		2
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+        m3;0028:  4
+        m4;0027:  5
+        m5;0026:  6
+        m2;0025:  3
+        m1;0024:  2
+        m0;0023:  1
+    End DDE Points
+End DDE Source Definition.
+End DDE Information.
